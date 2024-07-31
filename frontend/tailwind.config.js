@@ -1,3 +1,5 @@
+// Override styles in tailwind:
+
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
@@ -8,11 +10,9 @@ export default {
   theme: {
     extend: {},
     container: {
-      padding: {
-        md: "10rem",
+      padding: "10rem",
       },
     },
-  },
   plugins: [],
 };
 
